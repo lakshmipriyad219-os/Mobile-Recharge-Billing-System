@@ -1,5 +1,11 @@
 customer_name = input("Enter a customer name: ")
-mobile_number = input("Enter a mobile number: ")
+while True:
+    mobile_number = input("Enter mobile number: ")
+
+    if len(mobile_number) == 10:
+        break
+    else:
+        print("Enter valid 10 digit mobile number")
 plan = int(input("Enter plan(1/2/3): "))
 
 if(plan == 1):
@@ -13,6 +19,7 @@ elif(plan == 2):
 elif(plan == 3):
     price = 599
     print("price = 599")
+
 
 else:
     print("Invalid plan")
@@ -33,7 +40,7 @@ else:
 final_bill = total_bill - Cashback
 print("final bill =  ", final_bill)
 
-
+print("\n----- Recharge Receipt -----")
 print("customer name =  ", customer_name)
 print("mobile number =  ", mobile_number)
 print("plan = ", plan)
