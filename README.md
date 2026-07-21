@@ -1,28 +1,37 @@
 # 📱 Mobile Recharge Billing System
 
-A Python mini project developed as part of my internship learning journey at Yaash.
+A simple Python console application developed to practice Python programming concepts such as functions, loops, conditional statements, input validation, and bill calculation.
 
-## 🚧 Project Status
-
-This project is currently under development. More features and improvements will be added in the upcoming versions.
-
-## ✅ Features Implemented
+## 🚀 Features
 
 - Customer Name Input
-- Mobile Number Validation
-- Recharge Plan Selection
-- GST Calculation
+- Mobile Number Validation (10 digits)
+- Recharge Plan Selection (1/2/3)
+- Invalid Plan Validation
+- GST Calculation (18%)
 - Cashback Calculation
 - Final Bill Generation
-- Receipt Display
+- Recharge Receipt Display
 
 ## 🛠️ Technologies Used
 
 - Python
 - Visual Studio Code
+- Git
+- GitHub
+
+## 📂 Project Concepts
+
+- Functions
+- while Loop
+- if-elif-else
+- Input Validation
+- Variables
+- Arithmetic Operators
+- Return Statement
 
 ## 👩‍💻 Author
 
-Lakshmipriya D
+**Lakshmipriya D**
 
 GitHub: https://github.com/lakshmipriyad219-os
